@@ -19,13 +19,10 @@ int main(void)
 	TASHIZAN(a,b, c);
 	display(c);
 
-	display(a);
-	display(b);
 	HIKIZAN(a, b, c);
 	display(c);
 
-	display(a);
-	display(b);
+
 	KAKEZAN(a, b, c);
 	display(c);
 
