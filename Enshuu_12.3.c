@@ -14,8 +14,10 @@ int main(void)
 	int a[NROW][NCOL] = { {1,2,3},{4,5,6},{7,8,9} };
 	int b[NROW][NCOL] = { {11,12,13},{14,15,16},{17,18,19} };
 	int c[NROW][NCOL];
-	printf("Œ³‚Ì‚Q‚Â‚Ìs—ñ");
+	printf("1‚Â–Ú‚Ìs—ñ\n");
 	display(a);
+	printf("2‚Â–Ú‚Ìs—ñ\n");
+
 	display(b);
 	TASHIZAN(a,b, c);
 	display(c);
@@ -43,7 +45,7 @@ void TASHIZAN(int x[][NCOL],int y[][NCOL], int z[][NCOL])
 		}
 	}
 
-	printf("‘«‚µZ\n");
+	printf("‚±‚Ì‚Q‚Â‚Ìs—ñ‚Ì‘«‚µZ‚Í\n");
 
 }
 void HIKIZAN(int x[][NCOL], int y[][NCOL], int z[][NCOL])
@@ -58,7 +60,7 @@ void HIKIZAN(int x[][NCOL], int y[][NCOL], int z[][NCOL])
 
 		}
 	}
-	printf("ˆø‚«Z\n");
+	printf("‚±‚Ì‚Q‚Â‚Ìs—ñ‚Ìˆø‚«Z‚Í\n");
 
 
 }
@@ -75,7 +77,7 @@ void KAKEZAN(int x[][NCOL], int y[][NCOL], int z[][NCOL])
 
 		}
 	}
-	printf("Š|‚¯Z\n");
+	printf("‚±‚Ì‚Q‚Â‚Ìs—ñ‚ÌŠ|‚¯Z‚Í\n");
 
 
 }
